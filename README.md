@@ -2,7 +2,9 @@
 **Author:** Adithya S M
 
 ## Overview
-This Python application allows you to check...
+This Python application allows you to check the type of network service running on a specified IP address or hostname and port. It connects to the target service, grabs the banner (if available), and identifies common services like HTTP, FTP, SSH, and SMTP.
+The app features a simple graphical interface built with Tkinter and runs connection checks in a background thread to keep the interface responsive.
+
 
 
 ## Features
